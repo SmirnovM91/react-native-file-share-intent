@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
 
   s.authors      = package['author']
   s.homepage     = package['homepage']
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/SmirnovM91/react-native-file-share-intent.git", :tag => "master" }
-  s.source_files  = "RNFileShareIntent/**/*.{h,m}"
+  s.source_files = 'ios/src/*.{h,m}'
   s.requires_arc = true
 
 
