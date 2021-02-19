@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.authors      = package['author']
   s.homepage     = package['homepage']
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNFileShareIntent.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/SmirnovM91/RNFileShareIntent.git", :tag => "master" }
   s.source_files  = "RNFileShareIntent/**/*.{h,m}"
   s.requires_arc = true
 
